@@ -25,6 +25,10 @@
 - Submit that word for points (by eating your tail)
 - Steal words from other players or be stolen from
 
+### It looks a bit like Conways Game of Life when Zoomed out
+
+![Not Conways Game of Life](./media/snibble-conway-loop-readme-content.gif)
+
 ---
 
 To Discuss:
