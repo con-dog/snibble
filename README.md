@@ -37,6 +37,8 @@
 
 ## Procedural Wall Generation
 
+Walls are generated based on the seed and a custom shape grammar of 8x8 shape primitives. The shape primitives can be scaled up to different powers of 2, allowing for a wide variety of wall configurations.
+
 ![Procedural Wall Generation](./media/snibble-wall-proc-gen-readme-content.gif)
 
 ---
