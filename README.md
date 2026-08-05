@@ -31,6 +31,14 @@
 
 ---
 
+# Main Content
+
+## Procedural Wall Generation
+
+![Procedural Wall Generation](./media/snibble-wall-proc-gen-readme-content.gif)
+
+---
+
 To Discuss:
 
 - Extreme compression
