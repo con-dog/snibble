@@ -3,11 +3,17 @@
 A game-engine and accompanying game that slowly turned into an infrastructure project. 
 
 Features:
+- Extreme compression
+- Extreme performance
+- Custom wire protocol
 - Procedural level generation (walls)
+  - Shape grammar of 8x8 shape primitives
+  - Shape primitives can be scaled up to different powers of 2
 - Procedural sound generation
 - Discrete movement and actions
 - Continuous fluid rendering and animation
 - Fully separated logic and rendering
+- Ability to run the game headless
 - Infinite toroidal board
 - Game replays
     - Spectate your own game
