@@ -5,16 +5,21 @@ A game-engine and accompanying game that slowly turned into an infrastructure pr
 Features:
 - Procedural level generation (walls)
 - Procedural sound generation
+- Discrete movement and actions
+- Continuous fluid rendering and animation
+- Fully separated logic and rendering
+- Infinite toroidal board
 - Game replays
     - Spectate your own game
     - Spectate an enemies game
     - Change the camera subject dynamically
     - Play against your “ghost”
     - QR code that encodes the entire game replay
- - Bot “gene” system for bot behaviour
-     - Perception levels and imperfect information
-     - Word forming ability and Word complexity ability
-     - Stealing aggression levels
+- Bot “gene” system for bot behaviour
+    - Perception levels and imperfect information
+    - Word forming ability and Word complexity ability
+    - Stealing aggression levels
+    - Zone masks
 - Everything as a power of 2
   - Board dimensions
   - Inner board zones
