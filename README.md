@@ -1,8 +1,34 @@
 # Summary
 
-A game-engine and accompanying game that slowly turned into an infrastructure project. 
+> Snibble started its life as a multiplyer word game combining Snake, Scrabble, and adversarial Stealing mechanics.
+>
+> Over time, it has evolved into a deterministic game engine and simulator.
 
-Features:
+![The game core loop](./media/snibble-main-loop-readme-content.gif)
+
+### The engine features:
+
+- Headless simulation
+- Discrete movement and actions, yet continuous fluid rendering and animation
+- Exact game replays with a scrubbable timeline (like a video player)
+- Tiny QR-encodable replays
+- Procuedral level generation (walls) and sound generation
+- Configurable bot "genes" for bot behaviour, with imperfect information and perception levels
+- A custom binary wire protocol for multiplayer games and replay compression
+- An infinite toroidal board with zones and flow fields
+- Fully separated logic and rendering
+
+### The game loop:
+
+- Collect letters
+- Form a word
+- Submit that word for points (by eating your tail)
+- Steal words from other players or be stolen from
+
+---
+
+To Discuss:
+
 - Extreme compression
 - Extreme performance
 - Custom wire protocol
@@ -16,16 +42,16 @@ Features:
 - Ability to run the game headless
 - Infinite toroidal board
 - Game replays
-    - Spectate your own game
-    - Spectate an enemies game
-    - Change the camera subject dynamically
-    - Play against your “ghost”
-    - QR code that encodes the entire game replay
+  - Spectate your own game
+  - Spectate an enemies game
+  - Change the camera subject dynamically
+  - Play against your “ghost”
+  - QR code that encodes the entire game replay
 - Bot “gene” system for bot behaviour
-    - Perception levels and imperfect information
-    - Word forming ability and Word complexity ability
-    - Stealing aggression levels
-    - Zone masks
+  - Perception levels and imperfect information
+  - Word forming ability and Word complexity ability
+  - Stealing aggression levels
+  - Zone masks
 - Everything as a power of 2
   - Board dimensions
   - Inner board zones
@@ -38,19 +64,3 @@ Features:
 - Global state versus individual state
   - Flow fields
   - Zones
-
-
-# How it Started
-
-This started as a simple game combining elements from Snake, Scrabble, and PvP/PvE mechanics (word stealing).
-
-The core loop is:
-- Collect letters
-- Form a word
-- Submit that word points (by eating your tail)
-- Steal or be Stolen from
-
-# How it is Now
-
-The game revealed itself to not be so simple after all. Ideas that seemed simple on the surface, once the thread was pulled to its logical conclusion, turned out to have second order effects.
-
