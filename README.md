@@ -1,5 +1,7 @@
 # Summary
 
+[Link to the Game](https://snibble.gg)
+
 > Snibble started its life as a multiplyer word game combining Snake, Scrabble, and adversarial Stealing mechanics.
 >
 > Over time, it has evolved into a deterministic game engine and simulator.
