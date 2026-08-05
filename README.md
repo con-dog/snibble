@@ -11,7 +11,22 @@ Features:
     - Change the camera subject dynamically
     - Play against your “ghost”
     - QR code that encodes the entire game replay
- - Bot “gene” system for bot behaviour 
+ - Bot “gene” system for bot behaviour
+     - Perception levels and imperfect information
+     - Word forming ability and Word complexity ability
+     - Stealing aggression levels
+- Everything as a power of 2
+  - Board dimensions
+  - Inner board zones
+  - Bot count
+  - Bot gene parameters
+  - Sound generation
+- Word Dictionary
+  - DAWG
+  - Prefix / suffix complexity analysis
+- Global state versus individual state
+  - Flow fields
+  - Zones
 
 
 # How it Started
