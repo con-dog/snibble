@@ -85,14 +85,11 @@ Why did I implement this? Becuase the game carries heavy processing overhead for
 
 ---
 
-To Discuss:
+Still to Discuss:
 
 - Extreme compression
 - Extreme performance
 - Custom wire protocol
-- Procedural level generation (walls)
-  - Shape grammar of 8x8 shape primitives
-  - Shape primitives can be scaled up to different powers of 2
 - Procedural sound generation
 - Discrete movement and actions
 - Continuous fluid rendering and animation
@@ -105,11 +102,6 @@ To Discuss:
   - Change the camera subject dynamically
   - Play against your “ghost”
   - QR code that encodes the entire game replay
-- Bot “gene” system for bot behaviour
-  - Perception levels and imperfect information
-  - Word forming ability and Word complexity ability
-  - Stealing aggression levels
-  - Zone masks
 - Everything as a power of 2
   - Board dimensions
   - Inner board zones
@@ -122,7 +114,3 @@ To Discuss:
 - Global state versus individual state
   - Flow fields
   - Zones
-
-```
-
-```
