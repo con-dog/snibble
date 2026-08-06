@@ -83,10 +83,17 @@ Zones have masks over them which "hide" information from bots. So as bots play t
 
 Why did I implement this? Becuase the game carries heavy processing overhead for humans, I first decided to implement non-continuous movement and actions so players can pause and think - unlike most snake games. Then I realised through playtesting that bots had perfect information so didn't have any need to pause, which caused an asymmetry in the game. I also did not want to introduce random pauses for bot movement, I wanted a more elegant solution akin to what the human player experiences. So partial information masking was the obvious solution given that the game was already segmented into power-of-2 zones.
 
+## QR Code Replays
+
+![Scan this to open an actual replay](./media/replay-qr-code.png)
+
+Every single played game can be replayed, and the replays are so tiny that they fit in a QR code. There is no server, no database, no url-shortener. This is the entire game state required to replay the exact game. The replay can be watched and scrubbed like a video, and the camera can be dynamically changed to follow any player. You can even play against your own "ghost" from a previous game.
+
 ---
 
 Still to Discuss:
 
+- QR Code Artifacts
 - Extreme compression
 - Extreme performance
 - Custom wire protocol
