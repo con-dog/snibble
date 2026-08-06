@@ -93,9 +93,10 @@ Every single played game can be replayed, and the replays are so tiny that they 
 
 Still to Discuss:
 
+- Hero stats section
 - QR Code Artifacts
-- Extreme compression
-- Extreme performance
+- Extreme compression and example replays and exact encoding structure
+- Extreme performance and flame graphs
 - Custom wire protocol
 - Procedural sound generation
 - Discrete movement and actions
