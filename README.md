@@ -89,6 +89,8 @@ Why did I implement this? Becuase the game carries heavy processing overhead for
 
 Every single played game can be replayed, and the replays are so tiny that they fit in a QR code. There is no server, no database, no url-shortener. This is the entire game state required to replay the exact game. The replay can be watched and scrubbed like a video, and the camera can be dynamically changed to follow any player. You can even play against your own "ghost" from a previous game.
 
+And just for fun, I made the QR code look like an actual live game of Snibble with letter tiles and snakes.
+
 ---
 
 # Still to Discuss:
