@@ -35,7 +35,7 @@
 
 ---
 
-# Main Content
+# Architecture
 
 ## Procedural Wall Generation
 
@@ -91,7 +91,7 @@ Every single played game can be replayed, and the replays are so tiny that they 
 
 ---
 
-Still to Discuss:
+# Still to Discuss:
 
 - Hero stats section
 - QR Code Artifacts
