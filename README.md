@@ -1,10 +1,12 @@
 # Summary
 
+> This write-up is being actively expanded (Work In Progress).
+
 [Link to the Game](https://snibble.gg)
 
-> Snibble started its life as a multiplyer word game combining Snake, Scrabble, and adversarial Stealing mechanics.
+> Snibble started its life as a multiplyer word game combining Snake, Scrabble, and adversarial stealing mechanics.
 >
-> Over time, it has evolved into a deterministic game engine and simulator.
+> Over time, it has evolved into a game-engine and simulator.
 
 ![The game core loop](./media/snibble-main-loop-readme-content.gif)
 
@@ -40,6 +42,20 @@
 Walls are generated based on the seed and a custom shape grammar of 8x8 shape primitives. The shape primitives can be scaled up to different powers of 2, allowing for a wide variety of wall configurations.
 
 ![Procedural Wall Generation](./media/snibble-wall-proc-gen-readme-content.gif)
+
+### Wall Shape Primitives
+
+Each shape primitive is an 8x8 "grid" of wall segments and "nodes". How it works is 2x8-byte masks that get combined
+
+- Mask 1: Define a 8x8 shape primtive of nodes (think of them as line end-caps)
+- Mask 2:Define a second 8x8 shape primitive of walls (think of them as line segments)
+- Each bit in the mask is a boolean value, where 1 = wall/node and 0 = empty space. The two masks are combined to form a single 8x8 shape primitive.
+
+| Wall Primitive Diamond Example                              | Zoomed out board with Nodes coloured in                    |
+| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| ![Wall Primitive Sample](./media/wall-primitive-sample.png) | ![Zoomed out with Nodes](./media/wall-primitive-nodes.png) |
+
+The node-wall stroke algorithm is a simple custom algorithm that draws a line between two nodes via line of sight, and then fills in the line with wall segments. The algorithm is designed to be fast and efficient, and it can handle a wide variety of wall configurations. In the above images, the nodes are pink, the walls are black, and the empty space is white. The walls are generated procedurally based on the seed, and they can be scaled up to different powers of 2. Walls can be connected via a solid or dotted "stroke" which is seed derived.
 
 ---
 
@@ -80,3 +96,7 @@ To Discuss:
 - Global state versus individual state
   - Flow fields
   - Zones
+
+```
+
+```
