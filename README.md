@@ -12,7 +12,7 @@
 | --------------------------------------------------- | ------------------------------------------------- |
 | Collect a Letter                                    | Form a Word                                       |
 | ![Collect a Letter](./media/collect-a-letter-2.gif) | ![Form a Word](./media/form-a-word-2.gif)         |
-| Submit a Word                                       | Perform a Steal                                   |
+| Submit a Word                                       | Steal a Word                                      |
 | ![Submit a Word](./media/submit-a-word-2.gif)       | ![Perform a Steal](./media/perform-a-steal-2.gif) |
 
 ### The engine features:
