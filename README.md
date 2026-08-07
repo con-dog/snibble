@@ -113,6 +113,10 @@ What is a player event-byte made of exactly?
 
 ## Performance and Stress Testing
 
+> All benchmarks were run on a 2021 Macbook Pro 16GB RAM.
+>
+> The game was run in a chrome browser with measurements using the chrome performance profiler.
+
 | 4096 enemies in play                   | All space occupied by letters               |
 | -------------------------------------- | ------------------------------------------- |
 | ![](./media/snibble-4096-entities.gif) | ![](./media/snibble-letter-stress-test.gif) |
