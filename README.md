@@ -111,6 +111,12 @@ What is a player event-byte made of exactly?
 
 \* The major compression insight here was that the engine timestep / resolution is not 1-tick, it is actually 16-ticks. So each state of the tick-delta represents 16-ticks
 
+## Performance and Stress Testing
+
+| 4096 enemies at once                   | All space occupied |
+| -------------------------------------- | ------------------ |
+| ![](./media/snibble-4096-entities.gif) |                    |
+
 ---
 
 # Still to Discuss:
