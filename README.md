@@ -34,11 +34,11 @@
 - Submit that word for points (by eating your tail)
 - Steal words from other players or be stolen from
 
-![The game core loop](./media/snibble-main-loop-readme-content.gif)
+![The game core loop](./media/snibble-main-loop-readme-content.png)
 
 ### It looks a bit like Conways Game of Life when Zoomed out
 
-![Not Conways Game of Life](./media/snibble-conway-loop-readme-content.gif)
+![Not Conways Game of Life](./media/snibble-conway-loop-readme-content.png)
 
 ---
 
@@ -48,7 +48,7 @@
 
 Walls are generated based on the seed and a custom shape grammar of 8x8 shape primitives. The shape primitives can be scaled up to different powers of 2, allowing for a wide variety of wall configurations.
 
-![Procedural Wall Generation](./media/snibble-wall-proc-gen-readme-content.gif)
+![Procedural Wall Generation](./media/snibble-wall-proc-gen-readme-content.png)
 
 ### Wall Shape Primitives
 
@@ -84,7 +84,7 @@ A gene belongs to one of seven categories, each of which can be tuned to a value
 
 > Bots are not oracles, they don't see the whole board ever. The board is segmented into zones, and a bot can only see its current zone and its 8 adjacent neighbouring zones.
 
-![gene example](./media/snibble-gene.gif)
+![gene example](./media/snibble-gene.png)
 
 Zones have masks over them which "hide" information from bots. So as bots play the game, they have imperfect information - just like a human. And just like a human, if they pause movement to stop and "scan" the board, the information is revelaed to them. But also just like a human, they forget what they saw after a while. The perception gene controls how often a bot stops to scan, and how long it remembers what it saw.
 
@@ -119,9 +119,9 @@ What is a player event-byte made of exactly?
 
 | 2048 enemies in play (constant 60 FPS) | All space occupied by letters (constant 60fps) |
 | -------------------------------------- | ---------------------------------------------- |
-| ![](./media/snibble-4096-entities.gif) | ![](./media/snibble-letter-stress-test.gif)    |
+| ![](./media/snibble-2048-entities.png) | ![](./media/snibble-letter-stress-test.png)    |
 
----
+---`
 
 # Still to Discuss:
 
