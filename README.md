@@ -91,12 +91,24 @@ Every single played game can be replayed, and the replays are so tiny that they 
 
 And just for fun, I made the QR code look like an actual live game of Snibble with letter tiles and snakes.
 
+## Compression Story and Custom Event Protocol
+
+Player actions are a 1 byte event - the only actions a player can take are to stay still, or move in a cardinal direction (up, down, left, right) or to eject a letter. Behind the scenes actions are discrete step-based events tied to the grid structure positionally, even though visually the game appears to be continuous and movement is fluid between grid cells.
+
+What is a player event-byte made of exactly?
+
+- 2 bits encode 4 possible directions (up, down, left, right)
+- 1 bit encodes whether the player is ejecting a letter or not
+- 1 bit encodes whether the player is moving or not
+- And the remaining 4 bits encode the "tick-delta" since the last event \*
+
+\* The major compression insight here was that the engine timestep / resolution is not 1-tick, it is actually 16-ticks. So each state of the tick-delta represents 16-ticks
+
 ---
 
 # Still to Discuss:
 
 - Hero stats section
-- QR Code Artifacts
 - Extreme compression and example replays and exact encoding structure
 - Extreme performance and flame graphs
 - Custom wire protocol
