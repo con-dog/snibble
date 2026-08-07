@@ -108,6 +108,8 @@ What is a player event-byte made of exactly?
 
 # Still to Discuss:
 
+- Stress test - 8192 players on screen at once
+- Rift mechanic
 - Hero stats section
 - Extreme compression and example replays and exact encoding structure
 - Extreme performance and flame graphs
