@@ -113,9 +113,9 @@ What is a player event-byte made of exactly?
 
 ## Performance and Stress Testing
 
-| 4096 enemies at once                   | All space occupied |
-| -------------------------------------- | ------------------ |
-| ![](./media/snibble-4096-entities.gif) |                    |
+| 4096 enemies in play                   | All space occupied by letters               |
+| -------------------------------------- | ------------------------------------------- |
+| ![](./media/snibble-4096-entities.gif) | ![](./media/snibble-letter-stress-test.gif) |
 
 ---
 
