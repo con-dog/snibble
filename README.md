@@ -11,9 +11,9 @@
 |                                                     |                                                   |
 | --------------------------------------------------- | ------------------------------------------------- |
 | Collect a Letter                                    | Form a Word                                       |
-| ![Collect a Letter](./media/collect-a-letter-2.gif) | ![Form a Word](./media/form-a-word-2.gif)         |
+| ![Collect a Letter](./media/collect-a-letter-2.png) | ![Form a Word](./media/form-a-word-2.png)         |
 | Submit a Word                                       | Steal a Word                                      |
-| ![Submit a Word](./media/submit-a-word-2.gif)       | ![Perform a Steal](./media/perform-a-steal-2.gif) |
+| ![Submit a Word](./media/submit-a-word-2.png)       | ![Perform a Steal](./media/perform-a-steal-2.png) |
 
 ### The engine features:
 
