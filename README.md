@@ -113,6 +113,7 @@ What is a player event-byte made of exactly?
 
 ## Performance and Stress Testing
 
+> [!NOTE]
 > All benchmarks were run on a 2021 Macbook Pro 16GB RAM.
 >
 > The game was run in a chrome browser with measurements using the chrome performance profiler.
