@@ -117,9 +117,9 @@ What is a player event-byte made of exactly?
 >
 > The game was run in a chrome browser with measurements using the chrome performance profiler.
 
-| 4096 enemies in play                   | All space occupied by letters               |
-| -------------------------------------- | ------------------------------------------- |
-| ![](./media/snibble-4096-entities.gif) | ![](./media/snibble-letter-stress-test.gif) |
+| 2048 enemies in play (constant 60 FPS) | All space occupied by letters (constant 60fps) |
+| -------------------------------------- | ---------------------------------------------- |
+| ![](./media/snibble-4096-entities.gif) | ![](./media/snibble-letter-stress-test.gif)    |
 
 ---
 
