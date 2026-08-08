@@ -33,19 +33,6 @@ TODO: Links to sections here, and a 3x3 gif grid of "insane" highlights of the e
 - An infinite toroidal board with zones and flow fields
 - Fully separated logic and rendering
 
-### The game loop:
-
-- Collect letters
-- Form a word
-- Submit that word for points (by eating your tail)
-- Steal words from other players or be stolen from
-
-![The game core loop](./media/snibble-main-loop-readme-content.png)
-
-### It looks a bit like Conways Game of Life when Zoomed out
-
-![Not Conways Game of Life](./media/snibble-conway-loop-readme-content.png)
-
 ---
 
 # Architecture
