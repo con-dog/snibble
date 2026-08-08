@@ -17,6 +17,10 @@
 | Submit a Word                                       | Steal a Word                                      |
 | ![Submit a Word](./media/submit-a-word-2.png)       | ![Perform a Steal](./media/perform-a-steal-2.png) |
 
+# Engineering Highlights
+
+TODO: Links to sections here, and a 3x3 gif grid of "insane" highlights of the engine and game.
+
 ### The engine features:
 
 - Headless simulation
