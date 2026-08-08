@@ -103,7 +103,12 @@ Why did I implement this? Becuase the game carries heavy processing overhead for
 
 ## QR Code Replays
 
-![Scan this to open an actual replay](./media/replay-qr-code.png)
+> [!NOTE]
+> Here is the URL to the exact replay from the gif below: [https://snibble.gg/r/eJxjYGY0VT_BwMIwkVFZQIGPja3x6YM5zClfHRig4FUCAwsDA9NCBgZWRwYG9kIGBs6FDCICKgICCoIKAsogUqGBQUBA0KTFvE1dRUnISKlRUkxIUdSojVFYQVBBRMO4RaRFoElAwUlEQUHQ0VFIUMBByEFFqQUATK4Vgw](https://snibble.gg/r/eJxjYGY0VT_BwMIwkVFZQIGPja3x6YM5zClfHRig4FUCAwsDA9NCBgZWRwYG9kIGBs6FDCICKgICCoIKAsogUqGBQUBA0KTFvE1dRUnISKlRUkxIUdSojVFYQVBBRMO4RaRFoElAwUlEQUHQ0VFIUMBByEFFqQUATK4Vgw)
+
+| Replay with camera subject switching | Scan this QR code to watch the EXACT replay from the gif                                        |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| ![](./media/snibble-replays.png)     | ![Scan this to open the exact replay this gif was captured from](./media/snibble-qr-replay.png) |
 
 Every single played game can be replayed, and the replays are so tiny that they fit in a QR code. There is no server, no database, no url-shortener. This is the entire game state required to replay the exact game. The replay can be watched and scrubbed like a video, and the camera can be dynamically changed to follow any player. You can even play against your own "ghost" from a previous game.
 
