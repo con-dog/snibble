@@ -83,11 +83,16 @@ A gene belongs to one of seven categories, each of which can be tuned to a value
 
 ### Perception Gene, or, Imperfect Information
 
-> Bots are not oracles, they don't see the whole board ever. The board is segmented into zones, and a bot can only see its current zone and its 8 adjacent neighbouring zones.
+> [!NOTE]
+> Bots are not oracles, they don't see the whole board. The board is segmented into zones, and a bot can only see its current zone and its 8 adjacent neighbouring zones.
+>
+> Just like how humans have imperfect information and need to stop to "scan" the board, bots also have imperfect information and need to stop to "scan" the board. The perception gene controls how often a bot stops to scan, and how long it remembers what it saw.
 
-![gene example](./media/snibble-gene.png)
+| Imperfect Humans                              | Imperfect Bots                               |
+| --------------------------------------------- | -------------------------------------------- |
+| ![](./media/snibble-imperfect-human-loop.png) | ![](./media/snibble-imperfect-bots-loop.png) |
 
-Zones have masks over them which "hide" information from bots. So as bots play the game, they have imperfect information - just like a human. And just like a human, if they pause movement to stop and "scan" the board, the information is revelaed to them. But also just like a human, they forget what they saw after a while. The perception gene controls how often a bot stops to scan, and how long it remembers what it saw.
+Zones have bitmasks over them which "hide" information from bots. So as bots play the game, they have imperfect information - just like a human. And just like a human, if they pause movement to stop and "scan" the board, the information is revelaed to them. But also just like a human, they forget what they saw after a while. The perception gene controls how often a bot stops to scan, and how long it remembers what it saw.
 
 Why did I implement this? Becuase the game carries heavy processing overhead for humans, I first decided to implement non-continuous movement and actions so players can pause and think - unlike most snake games. Then I realised through playtesting that bots had perfect information so didn't have any need to pause, which caused an asymmetry in the game. I also did not want to introduce random pauses for bot movement, I wanted a more elegant solution akin to what the human player experiences. So partial information masking was the obvious solution given that the game was already segmented into power-of-2 zones.
 
@@ -123,7 +128,21 @@ What is a player event-byte made of exactly?
 | -------------------------------------- | ---------------------------------------------- |
 | ![](./media/snibble-2048-entities.png) | ![](./media/snibble-letter-stress-test.png)    |
 
----`
+---
+
+# Challenges
+
+## Game Loop
+
+## Discrete Movement and Actions, Deterministic Simulation, and Continuous Fluid Rendering and Animation
+
+## Visual Density and Hierarchy
+
+## Word Forming Ability and Hand-Holding
+
+| No hand-holding (harder)                 | Hand-holding (easier)                      |
+| ---------------------------------------- | ------------------------------------------ |
+| ![](./media/visual-hierarchy-sample.png) | ![](./media/visual-hierarchy-sample-2.png) |
 
 # Still to Discuss:
 
