@@ -127,6 +127,7 @@ What is a player event-byte made of exactly?
 
 # Still to Discuss:
 
+- Biggest struggles (visual density and hierarchy, game loop, compression (esp multiplayer))
 - Written canvas
 - Camera system
 - Pseudocode
