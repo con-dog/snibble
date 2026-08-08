@@ -1,6 +1,7 @@
 # Summary
 
-> This write-up is being actively expanded (Work In Progress).
+> [!WARNING]
+> This write-up is an active work in progress. Some benchmarks are changing as I continue to optimise the engine and game. The write-up will be updated as I make progress.
 
 [Link to the Game](https://snibble.gg)
 
@@ -126,7 +127,10 @@ What is a player event-byte made of exactly?
 
 # Still to Discuss:
 
-- Stress test - 8192 players on screen at once
+- Written canvas
+- Camera system
+- Pseudocode
+- Seed system
 - Rift mechanic
 - Hero stats section
 - Extreme compression and example replays and exact encoding structure
