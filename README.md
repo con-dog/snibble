@@ -1,6 +1,8 @@
 # Summary
 
 > [!WARNING]
+> SHIPPED 🚢 at [Snibble - Demo](https://snibble.gg)
+> 
 > This write-up is an active work in progress. Some benchmarks are changing as I continue to optimise the engine and game. The write-up will be updated as I make progress. This is the public write-up for a private repository, so some of the content is intentionally vague or incomplete. If you have questions, please reach out to me directly.
 
 [Link to the Game](https://snibble.gg)
